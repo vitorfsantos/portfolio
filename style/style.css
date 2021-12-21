@@ -289,7 +289,7 @@ footer a{
     }
    
     #sobre{
-        
+        height: 70vh;
         display: flex;
         max-width: 100%;
         font-size: 1.4rem;
