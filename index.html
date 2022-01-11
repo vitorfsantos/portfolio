@@ -2,6 +2,7 @@
 <html lang="en">
 
 <head>
+
     <link rel="icon" href="./style/logo.jpg">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
         integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA=="
@@ -41,7 +42,8 @@
         <h2><a href="#">Sobre</a></h2>
         <p>Estudante de desenvolvimento web pelo curso Desenvolvimento
             web fullstack.</p>
-        <p class="certificado"><a href="https://programadorbr.com/certificado/DVWBVFDS24HT307111" target="_blank">Certificado</a></p>
+        <p class="certificado"><a href="https://programadorbr.com/certificado/DVWBVFDS24HT307111"
+                target="_blank">Certificado</a></p>
     </section>
     <section id="conhecimentos">
         <h2><a href="#">Conhecimentos</a></h2>
@@ -56,34 +58,45 @@
 
     </section>
     <section id="projetos">
-        <h2><a href="#">Projetos</a></h2>
-        <div class="listaProjetos">
-            <div class="agencia"><a href="https://vitorfsantos.github.io/Agencia-xyz/" target="_blank">
-                    <img src="./style/agencia.png" alt="" srcset="">
+        <div class="slide">
+            <div class="slides">
 
-                    <div class="agenciaConteudo">
-                        <h3>Agência XYZ</h3>
+                <div id="voltar" class="btn">
+                    <i class="fas fa-chevron-left"></i>
+                </div>
+                <div id="avancar" class="btn">
+                    <i class="fas fa-chevron-right"></i>
+                </div>
+
+
+                <div id="atual" class="image">
+                    <a href="https://vitorfsantos.github.io/Agencia-xyz/" target="_blank">
+                        <img src="./style/agencia.png" alt="">
+
+                    </a>
+                </div>
+                <div class="image">
+                    <a href="https://vitorfsantos.github.io/Landing-Page-Cafeteria/" target="_blank">
+                        <img src="./style/cafeteria.png" alt="">
+                    </a>
+                </div>
+                <div class="image">
+                    <a href="https://vitorfsantos.github.io/Jogo-da-Mem-ria/" target="_blank">
+                        <img src="./style/jogodavelha.png" alt="">
+                    </a>
+                </div>
+                <div class="image">
+                <a href="https://vitorfsantos.github.io/buscaCep/" target="_blank">
+                    <img src="./style/buscacep.png" alt="">
                 </a>
-                <p>Uma landing page com foco em grid.</p>
+                </div>
             </div>
-
-        </div>
-        <div class="cafeteria"><a href="https://vitorfsantos.github.io/Landing-Page-Cafeteria/" target="_blank">
-                <img src="./style/cafeteria.png" alt="" target="_blank">
-                <div class="cafeteriaConteudo">
-                    <h3>Landing page Cafeteria</h3>
-            </a>
-            <p>Uma landing page com design simples.</p>
-        </div>
-        </div>
-        <div class="jogoMemoria"><a href="https://vitorfsantos.github.io/Jogo-da-Mem-ria/" target="_blank">
-                <img src="./style/jogodavelha.png" alt="" srcset="">
-                <div class="jogoConteudo">
-                    <h3>Jogo da Memória</h3>
-            </a>
-            <p>Um jogo da memória feito utilizando apenas javascript.</p>
-        </div>
-        </div>
+            <div class="balls">
+                <!-- <div class="imgAtual" id="0"></div>
+                <div id="1"></div>
+                <div id="2"></div>
+                <div id="3"></div> -->
+            </div>
         </div>
     </section>
     <footer id="contato">
@@ -94,6 +107,7 @@
         </div>
     </footer>
     <script src="./script.js"></script>
+    <script src="./carrossel.js"></script>
 </body>
 
 </html>
