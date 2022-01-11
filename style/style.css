@@ -166,7 +166,6 @@ a {
 }
 #projetos{
     width: 100%;
-    
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -371,6 +370,14 @@ footer a{
     }
     #projetos{
         font-size: 1.4rem;
+        overflow: hidden;
+    }
+    .balls{
+        overflow:visible;
+    }
+    .conteudo{
+        font-size: 1.4rem;
+        
     }
     #contato{
         font-size: 1.4rem;
