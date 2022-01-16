@@ -268,7 +268,10 @@ footer a{
 }
 @media(max-width: 768px) {
     *{
-        font-size: 1rem;
+        font-size: 1.1rem;
+    }
+    h2{
+        font-size: 1.3rem;
     }
     .painel{
         max-width: 768px;
@@ -370,10 +373,26 @@ footer a{
     }
     #projetos{
         font-size: 1.4rem;
-        overflow: hidden;
+        
+    }
+    .slide{
+        width: 500px;
+        text-align: center;
+    }
+    .image img{
+        
+    }
+    .conteudo{
+        width: 300px;
+        text-align: center;
+        margin-left: 11%;
     }
     .balls{
+        position: relative;
+        justify-content: left;
         overflow:visible;
+        margin-left: 40%;
+        
     }
     .conteudo{
         font-size: 1.4rem;
