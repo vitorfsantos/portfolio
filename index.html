@@ -3,10 +3,9 @@
 
 <head>
 
-    <link rel="icon" href="./style/logo.jpg">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
-        integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA=="
-        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="icon" href="./style/images/fav.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA==" crossorigin="anonymous" referrerpolicy="no-referrer"
+    />
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;500;700;900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./style/style.css">
     <meta charset="UTF-8">
@@ -18,7 +17,7 @@
 <body>
     <header id="header">
         <a href="index.html" id="logo">
-            <h1>Portfólio</h1>
+            <h1> ≤ / ≥ </h1>
         </a>
         <nav id="nav">
 
@@ -27,69 +26,126 @@
             </button>
             <ul id="menu">
                 <li><a href="#sobre">Sobre</li></a>
-                <li><a href="#conhecimentos">Conhecimentos</li></a>
-                <li><a href="#projetos">Projetos</li></a>
-                <li><a href="#contato">Contato</li></a>
+                    <li><a href="#conhecimentos">Conhecimentos</li></a>
+                        <li><a href="#projetos">Projetos</li></a>
+                            <li><a href="#contato">Contato</li></a>
             </ul>
 
         </nav>
     </header>
     <section class="painel">
-        <h2>Vitor Santos</h2>
-        <p>Desenvolvedor Front-End</p>
+        <div class="painelVertical">
+
+            <div class="painelHorizontal">
+                <div class="painelConteudo">
+                    <h2>Vitor Santos</h2>
+                    <p>Desenvolvedor Front-End</p>
+                </div>
+            </div>
+            <div>
     </section>
-    <section id="sobre">
-        <h2><a href="#" class="titulo">Sobre</a></h2>
-        <p>Estudante de desenvolvimento web pelo curso Desenvolvimento
-            web fullstack.</p>
-        <p class="certificado"><a href="https://programadorbr.com/certificado/DVWBVFDS24HT307111"
-                target="_blank">Certificado</a></p>
-    </section>
-    <section id="conhecimentos">
-        <h2><a href="#">Conhecimentos</a></h2>
-        <img class="logo html" src="./style/1200px-HTML5_logo_and_wordmark.svg.png" alt="html">
-        <img class="logo css" src="./style/CSS3_logo_and_wordmark.svg.png" alt="css">
-        <img class="logo js" src="./style/800px-Unofficial_JavaScript_logo_2.svg.png" alt="javascript"> <br>
-        <img class="logo jquery" src="./style/70142.png" alt="jquery">
-        <img class="logo bootstrap" src="./style/bootstrap-stack.png" alt="bootstrap">
-        <img class="logo node" src="./style/0_kjOwhsnRP6o9upOd.png" alt="">
-        <img class="logo react" src="./style/react.png" alt="">
+    <div class="sobreconhecimentos">
+        <section id="sobre">
+            <div class="sobreConteudo">
+                <h2><a href="#" class="titulo">Sobre</a></h2>
+                <p>Iniciante na área de desenvolvimento web, buscando novas possibilidades para expêriencia pessoal e profissional.</p>
+            </div>
+        </section>
+        <section id="conhecimentos">
+            <div class="conhecimentosConteudo">
+                <h2><a href="#">Conhecimentos</a></h2>
+                <div id="html">
+                    <p>HTML</p>
+                    <div class="progress">
+                        <div class="progress__fill_html"></div>
+                        <span class="progress__text">89%</span>
+                    </div>
+
+                </div>
+                <div id="css">
+                    <p>CSS</p>
+                    <div class="progress">
+                        <div class="progress__fill_css"></div>
+                        <span class="progress__text">83%</span>
+                    </div>
+                </div>
+                <div id="js">
+                    <p>Javascript</p>
+                    <div class="progress">
+                        <div class="progress__fill_javascript"></div>
+                        <span class="progress__text">79%</span>
+                    </div>
+                </div>
+                <div id="react">
+                    <p>React JS</p>
+                    <div class="progress">
+                        <div class="progress__fill_react"></div>
+                        <span class="progress__text">62%</span>
+                    </div>
+                </div>
+                <div id="node">
+                    <p>Node</p>
+                    <div class="progress">
+                        <div class="progress__fill_node"></div>
+                        <span class="progress__text">23%</span>
+                    </div>
+                </div>
+                <div id="bootstrap">
+                    <p>Bootstrap</p>
+                    <div class="progress">
+                        <div class="progress__fill_bootstrap"></div>
+                        <span class="progress__text">80%</span>
+                    </div>
+                </div>
 
 
-    </section>
+            </div>
+
+
+
+        </section>
+    </div>
 
     <section id="projetos">
         <h2><a href="#">Projetos</a></h2>
         <div class="img-slider">
-            <div class="slide active">
-                <a href="https://vitorfsantos.github.io/CloneNetflix/" target="_blank"><img src="./style/cloneNetflix.png" alt=""></a>
-                <div class="info">
-                    <h2>Clone Netflix</h2>
-                    <p>Um clone do serviço de streaming Netflix, feito com React e consumo de API.</p>
+            <!-- <div class="slide__left" onclick="slideleft()">
+                <i class="fa-solid fa-angle-left"></i>
+            </div>
+            <div class="slide__right" onclick="slideleft()">
+                <i class="fa-solid fa-angle-right"></i>
+            </div> -->
+            <div class="slidearea">
+                <div class="slide active">
+                    <a href="https://vitorfsantos.github.io/CloneNetflix/" target="_blank"><img src="./style/images/cloneNetflix.png" alt=""></a>
+                    <div class="info">
+                        <h2>Clone Netflix</h2>
+                        <p>Um clone do serviço de streaming Netflix, feito com React e consumo de API.</p>
+                    </div>
+                </div>
+                <div class="slide">
+                    <a href="https://vitorfsantos.github.io/buscaCep/" target="_blank"><img src="./style/images/buscacep.png" alt=""></a>
+                    <div class="info">
+                        <h2>Busca CEP</h2>
+                        <p>Um buscador de CEP feito utilizando React e buscando dados em API</p>
+                    </div>
+                </div>
+                <div class="slide">
+                    <a href="https://vitorfsantos.github.io/Agencia-xyz/" target="_blank"><img src="./style/images/agencia.png" alt=""></a>
+                    <div class="info">
+                        <h2>Agência</h2>
+                        <p>Landing Page de uma agência.</p>
+                    </div>
+                </div>
+                <div class="slide">
+                    <a href="https://vitorfsantos.github.io/Landing-Page-Cafeteria/" target="_blank"><img src="./style/images/cafeteria.png" alt=""></a>
+                    <div class="info">
+                        <h2>Cafeteria</h2>
+                        <p>Landing Page de uma cafeteria.</p>
+                    </div>
                 </div>
             </div>
-            <div class="slide">
-                <a href="https://vitorfsantos.github.io/buscaCep/" target="_blank"><img src="./style/buscacep.png" alt=""></a>
-                <div class="info">
-                    <h2>Busca CEP</h2>
-                    <p>Um buscador de CEP feito utilizando React e buscando dados em API</p>
-                </div>
-            </div>
-            <div class="slide">
-                <a href="https://vitorfsantos.github.io/Agencia-xyz/" target="_blank"><img src="./style/agencia.png" alt=""></a>
-                <div class="info">
-                    <h2>Agência</h2>
-                    <p>Landing Page de uma agência.</p>
-                </div>
-            </div>
-            <div class="slide">
-                <a href="https://vitorfsantos.github.io/Landing-Page-Cafeteria/" target="_blank"><img src="./style/cafeteria.png" alt=""></a>
-                <div class="info">
-                    <h2>Cafeteria</h2>
-                    <p>Landing Page de uma cafeteria.</p>
-                </div>
-            </div>
-            
+
             <div class="navigation">
                 <div class="btn active"></div>
                 <div class="btn"></div>
@@ -101,12 +157,16 @@
     <footer id="contato">
         <h2><a href="#">Contato</a></h2>
         <div class="redes">
-            <p><a href="https://www.linkedin.com/in/vitor-santos-b97569226/" target="_blank">
+            <p>
+                <a href="https://www.linkedin.com/in/vitor-santos-b97569226/" target="_blank">
                     <i class="fab fa-linkedin fa-3x"></i>
-                </a></p>
-            <p><a href="mailto:vitorxfelippe@gmail.com" target="_blank">
+                </a>
+            </p>
+            <p>
+                <a href="mailto:vitorxfelippe@gmail.com" target="_blank">
                     <i class="fas fa-envelope fa-3x"></i>
-                </a></p>
+                </a>
+            </p>
         </div>
     </footer>
     <script src="./script.js"></script>
