@@ -442,33 +442,33 @@ footer a {
         transform: rotate(-135deg);
         top: -7px;
     }
-    #sobre {
-        height: 70vh;
-        display: flex;
-        max-width: 100%;
-        font-size: 1.4rem;
-        padding-right: 40px;
-        text-align: end;
-        justify-content: center;
-    }
-    #sobre a {
-        display: inline-block;
-        text-align: start;
-    }
-    #sobre p {
-        max-width: 50%;
-    }
-    #conhecimentos {
-        font-size: 1.4rem;
+    .sobreconhecimentos {
         display: flex;
         flex-direction: column;
+        text-align: center;
+        justify-content: end;
+        max-width: 100%;
     }
-    #conhecimentos img {
-        width: 100px;
+    #sobre {
+        text-align: center;
+        justify-content: center;
+        max-width: 100%;
+        margin: 30px 0;
     }
-    #conhecimentos .css {
-        width: 77px;
-        margin-right: 30px;
+    #sobre h2 {
+        margin: 0 auto;
+    }
+    #conhecimentos {
+        text-align: center;
+        justify-content: center;
+        max-width: 100%;
+        margin: 30px 0;
+    }
+    #conhecimentos h2 {
+        margin: 0 auto;
+    }
+    .conhecimentosConteudo {
+        padding: 0;
     }
     #contato {
         font-size: 1.4rem;
