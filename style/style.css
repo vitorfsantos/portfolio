@@ -199,14 +199,14 @@ a {
     position: relative;
     width: 800px;
     height: 500px;
-    margin: 10px auto
+    margin: 10px auto;
+    transition: all 0.4s;
 }
 
 .img-slider .slide {
     z-index: 1;
     position: absolute;
     width: 100%;
-    clip-path: circle(0% at 0 50%)
 }
 
 .img-slider .slide.active {
