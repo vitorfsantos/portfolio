@@ -265,7 +265,7 @@ a {
 .balls {
     position: absolute;
     width: 1024px;
-    display: flex;
+    display: none;
     justify-content: center;
 }
 
