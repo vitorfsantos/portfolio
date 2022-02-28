@@ -303,7 +303,7 @@ a {
         font-size: 15px;
     }
     .slide .balls {
-        bottom: 25px;
+        display: none;
     }
     .slide .balls .btn {
         width: 10px;
