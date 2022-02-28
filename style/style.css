@@ -328,7 +328,7 @@ a {
         font-size: 13px;
     }
     .slide .balls {
-        bottom: 15px;
+        display: none;
     }
     .slide .balls .btn {
         width: 8px;
@@ -353,7 +353,7 @@ a {
         font-size: 11px;
     }
     .slide .balls {
-        bottom: 10px;
+        display: none;
     }
 }
 
