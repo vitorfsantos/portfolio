@@ -292,6 +292,10 @@ a {
         width: 600px;
         height: 375px;
     }
+    .slide .slides img {
+        width: 600px;
+        height: 375px;
+    }
     .slide .slides .info {
         padding: 10px 25px;
     }
@@ -317,6 +321,10 @@ a {
         width: 400px;
         height: 250px;
     }
+    .slide .slides img {
+        width: 400px;
+        height: 250px;
+    }
     .slide .slides .info {
         padding: 10px 20px;
     }
@@ -339,6 +347,10 @@ a {
 
 @media (max-width: 420px) {
     .slide {
+        width: 320px;
+        height: 200px;
+    }
+    .slide .slides img {
         width: 320px;
         height: 200px;
     }
