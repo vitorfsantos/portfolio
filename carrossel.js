@@ -40,7 +40,7 @@ function slide() {
         atual = quant.length - 1
     }
     document.querySelector('.imgAtual').classList.remove('imgAtual')
-    imagem.style.marginLeft = -1024 * atual + 'px'
+    imagem.style.marginLeft = -imagem.clientWidth * atual + 'px'
     document.getElementById(atual).classList.add('imgAtual')
 }
 slide()
