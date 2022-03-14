@@ -224,7 +224,7 @@ a {
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: end;
+    justify-content: center;
     color: black;
 }
 
@@ -368,6 +368,13 @@ a {
     }
     .slide .balls {
         display: none;
+    }
+    #voltar {
+        left: 2%;
+    }
+    
+    #next {
+        right: 2%;
     }
 }
 
